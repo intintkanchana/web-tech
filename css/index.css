@@ -104,20 +104,20 @@ a{
 
  .link-content{
      margin-top: 20px;
-     color: rosybrown;
+     color: black;
      cursor: pointer;
      transition: all .5s ease;
      margin-left: 30px;
  }
  .link-content:hover{
-     color: rosybrown;
-     border-bottom:3px solid rosybrown ;
+     color:navy;
+     border-bottom:3px solid navy ;
      width: fit-content;
      padding-bottom: 5px;
  }
 
  .link-content .fas{
-     color: darksalmon;
+     color: black;
      margin-left: 5px;
  }
  .lower img{
