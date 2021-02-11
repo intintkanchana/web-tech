@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8" />
+ <title>About Internet</title>
+ <link rel="stylesheet" href="css/nav.css">
+ <script src="https://code.jquery.com/jquery-1.9.0rc1.js"></script> <!--เอามาเชื่อมlink-->
+ <script src="https://code.jquery.com/jquery-migrate-1.0.0rc1.js"></script>
+ <script src="https://kit.fontawesome.com/54cecfcf8f.js" crossorigin="anonymous"></script>
+ <script>
+     function load(id,path){
+         $(function(){
+             $(id).load(path)
+         })
+     }
+ </script>
+</head>
+
+<body>
+
+<div class="navigation">
+ <div class="box" onclick="load('#head','link/home.html')">
+   <div class="icon"><i class="fas fa-house-user"></i></div>  
+   <div class="text-box">&nbsp;&nbsp; HOME</div>
+ </div>
+ 
+ <div class="box" onclick="load('#head','link/profile.html')">
+   <div class="icon" ><i class="fas fa-user-circle"></i></div>
+   <div class="text-box">&nbsp; PROFILE</div>
+ </div>
+ 
+ <div class="box" onclick="load('#head','link/education.html')">
+   <div class="icon"><i class="fas fa-user-graduate"></i></div>
+   <div class="text-box">&nbsp; &nbsp; EDUCATION</div>
+ </div>
+ 
+ <div class="box" onclick="load('#head','link/contact.html')">
+   <div class="icon"><i class="fas fa-bell"></i></div>
+   <div class="text-box">&nbsp; CONTACT</div>
+ </div>
+</div>
+
+<div id="head"></div>
+
+<script> 
+    load('#head','home.html')
+</script>
+
+<div class="content">
+
+</body>
+
+</html>
