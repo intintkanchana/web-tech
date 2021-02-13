@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 *{
@@ -175,4 +176,12 @@ a{
     100%{
         transform: translate(0,0);
     }
+}
+.profile-left{
+
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
