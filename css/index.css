@@ -185,3 +185,23 @@ a{
     justify-content: center;
     margin-top: 100px;
 }
+.pic-profile img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    transition: all .5s ease;
+}
+.pic-profile img:hover{
+    transform: scale(1.2);
+    margin-top: 40px;
+   -webkit-box-shadow: 22px 22px 10px -11px rgba(0,0,0,0.42);
+   -moz-box-shadow: 22px 22px 10px -11px rgba(0,0,0,0.42);
+   box-shadow: 22px 22px 10px -11px rgba(0,0,0,0.42);
+}
+.pic-profile{
+    float: right;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+}
