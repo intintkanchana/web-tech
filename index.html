@@ -50,8 +50,18 @@
         </div>
         <div id="root"></div>
     </div>
+    <div class="date">
+        <span id="date"></span>
+        <span id="time"></span>
+    </div>
     <script>
+        setInterval(_ => {
+            let date = new Date();
+            document.getElementById('time').innerHTML = date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+            document.getElementById('date').innerHTML = date.getDate()+'/'+date.getMonth()+'/'+date.getFullYear();
+        },1000);
         load('#root','link/home.html');
+        
     </script>
     <script src="https://kit.fontawesome.com/54cecfcf8f.js?ver=1" crossorigin="anonymous"></script>
 
