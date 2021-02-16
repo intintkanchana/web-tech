@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Caveat&family=M+PLUS+Rounded+1c&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +44,7 @@ a{
     margin: 0 10px;
     text-decoration: none;
     color: lavender;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caveat', cursive;
     font-size: 30px;
     transition: all .5s ease;
 }
@@ -68,7 +71,7 @@ a{
      color: seashell;
      background-color: rgba(255, 255, 255, 0.2);
      font-size: 30px;
-     font-family: 'Playfair Display SC', serif;
+     font-family: 'Caveat', cursive;
      margin: 0 20px;
      padding: 10px 20px;
      border-radius: 30px;
@@ -85,7 +88,7 @@ a{
      color: whitesmoke;
  }
  .home-container h1{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Caveat', cursive;
     font-size: 70px;
     color: black;
     
@@ -138,6 +141,7 @@ a{
      color: black;
      font-size: 20px;
      margin-left: 20px;
+     font-family: 'Caveat', cursive;
  }
  .home-left img{
      width: 350px;
@@ -184,6 +188,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    
 }
 .pic-profile img{
     width: 350px;
@@ -212,6 +217,7 @@ a{
 
 .content-profile{
     font-size: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .container-education{
@@ -248,24 +254,28 @@ a{
     color: #922B21;
     font-size:20px;
     line-height: 40px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .container-article{
     text-align: justify;
     margin: 50px 100px;
-    font-size: 16px;
+    font-size: 14px;
     color: #212F3C;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 hr{
     margin-top: 20px;
     height: 3px;
-    background-color: #4A235A;
+    background-color: #4c4a4d;
     border: none;
+    
 }
 
 li{
     margin-left: 40px;
+    
 }
 
 input{
@@ -292,6 +302,7 @@ form{
     padding: 30px;
     border-radius: 20px;
     margin: 10px auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 button[type=submit]{
@@ -316,4 +327,5 @@ button[type=submit]:hover{
     padding: 5px;
     border-radius: 10px;
     font-size: 18px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
